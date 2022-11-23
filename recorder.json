@@ -1,0 +1,34 @@
+{
+    "name": "python-project",
+    "version": "0.1.0",
+    "description": "Python project template",
+    "file":[
+        {
+            "id": 1,
+            "name": "PythonBeginner",
+            "fileName": [
+                {
+                    "type": "default",
+                    "path": "./PythonBeginner/src/*.py",
+                    "explain": "初学者章程, 需要学会如何安装python, 如何使用python, 如何使用pip, 如何使用pycharm, 或 VSCode"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "PythonFunction",
+            "fileName": [
+                {
+                    "type": "default",
+                    "path": "./PythonFunction/src/*.py",
+                    "explain": "函数章程, 需要学会如何定义 def 函数, 如何调用函数, 如何传递参数, 如何返回值"
+                },
+                {
+                    "type": "python",
+                    "path": "replace('*', 'CreateFirstDEF')",
+                    "explain": "创建第一个函数, 并会调用"
+                }
+            ]
+        }
+    ]
+}
