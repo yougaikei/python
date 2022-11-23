@@ -10,7 +10,9 @@
                 {
                     "type": "default",
                     "path": "./PythonBeginner/src/*.py",
-                    "explain": "初学者章程, 需要学会如何安装python, 如何使用python, 如何使用pip, 如何使用pycharm, 或 VSCode"
+                    "explain-cn": "初学者章程, 需要学会如何安装python, 如何使用python, 如何使用pip, 如何使用pycharm, 或 VSCode",
+                    "explain-en": "Beginner, you need to learn how to install python, how to use python, how to use pip, how to use pycharm, or VSCode",
+                    "explain-jp": "初心者, あなたはpythonをインストールする方法、pythonを使用する方法、pipを使用する方法、pycharmを使用する方法、またはVSCodeを学ぶ必要があります"
                 }
             ]
         },
@@ -21,12 +23,25 @@
                 {
                     "type": "default",
                     "path": "./PythonFunction/src/*.py",
-                    "explain": "函数章程, 需要学会如何定义 def 函数, 如何调用函数, 如何传递参数, 如何返回值"
+                    "explain-cn": "函数章程, 需要学会如何定义 def 函数, 如何调用函数, 如何传递参数, 如何返回值",
+                    "explain-en": "Function, you need to learn how to define def functions, how to call functions, how to pass parameters, and how to return values",
+                    "explain-jp": "関数, あなたはdef関数を定義する方法、関数を呼び出す方法、パラメータを渡す方法、および値を返す方法を学ぶ必要があります"
                 },
                 {
                     "type": "python",
                     "path": "replace('*', 'CreateFirstDEF')",
-                    "explain": "创建第一个函数, 并会调用"
+                    "relative": "./PythonFunction/src/CreateFirstDEF.py",
+                    "explain-cn": "创建第一个函数, 并会调用",
+                    "explain-en": "Create the first function and call it",
+                    "explain-jp": "最初の関数を作成し、呼び出します"
+                },
+                {
+                    "type": "python",
+                    "path": "replace('*', 'FormalParameter')",
+                    "relative": "./PythonFunction/src/FormalParameter.py",
+                    "explain-cn": "初步认识形参、实参, 并学会使用",
+                    "explain-en": "Get to know the formal parameter and the actual parameter, and learn to use it",
+                    "explain-jp": "形式パラメータと実際のパラメータを知り、使用する方法を学びます"
                 }
             ]
         }
